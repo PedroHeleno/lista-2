@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+
+for (int c = 1; c <= 9; ++c)
+{
+  for (int d = 0; d <= 9; ++d)
+  {
+      if (d>0 && d%2==0)
+      {
+
+      }
+      for (int u = 0; u <= 9; ++u)
+      {
+        printf("%d (%d*%d*%d)\n",(c*d*u), c, d, u);
+      }
+  }  
+}
+
+  return 0;
+}
